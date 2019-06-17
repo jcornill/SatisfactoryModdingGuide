@@ -86,7 +86,7 @@ Now you can install mod compatible with SML by directly dropping them inside the
 ## Conclusion
 
 
-Sorry for any misstying error or english error D:
+Sorry for any misstying error or spellin mistake D:
 
 If you have any question, error or sugestion about this guide you can send me a PM on discord Kirthos#4493.
 
