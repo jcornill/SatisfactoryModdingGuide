@@ -81,7 +81,7 @@ If a command windows appear that means everything work correctly.
 
 ![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/blob/master/Console.png "console")
 
-Now you can install mod compatible with SML by directly dropping them inside the created mod folder ."**SatisfactoryEarlyAccess\FactoryGame\Binaries\Win64\mods**" and relaunch the game.
+Now you can install mod compatible with SML by directly dropping them inside the created mod folder "**SatisfactoryEarlyAccess\FactoryGame\Binaries\Win64\mods**" and relaunch the game.
 
 ## Conclusion
 
