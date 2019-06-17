@@ -1,8 +1,11 @@
 # Installing Satisfactory Mod Loader (SML)
 
 First you need to get SML to be able to start to add mod to satisfactory or to create mod.
+
 SML will create a "xinput1_3.dll" file that you need.
+
 If you don't want to build the source code and just want it to load mod you can found this at https://ficsit.app/sml-releases but I suggest you to build it from source for theses that want to create new mods.
+
 I will explain how to build it in the next chapter for people that already have the "xinput1_3.dll" file you can skip it.
 
 ## Building Satisfactory Mod Loader
