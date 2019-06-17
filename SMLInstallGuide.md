@@ -4,7 +4,7 @@ First you need to get SML to be able to start to add mod to satisfactory or to c
 
 SML will create a "xinput1_3.dll" file that you need.
 
-If you don't want to build the source code and just want it to load mod you can found this at https://ficsit.app/sml-releases but I suggest you to build it from source for theses that want to create new mods.
+If you don't want to build the source code and just want it to load mod you can find this at https://ficsit.app/sml-releases but I suggest you to build it from source for theses that want to create new mods.
 
 I will explain how to build it in the next chapter for people that already have the "xinput1_3.dll" file you can skip it.
 
@@ -38,7 +38,7 @@ Perfect you have the SML source code on your computer.
 
 Now you need to get visual studio if you don't have it.
 
-It's better to use Visual studio 2017, you can found older version of visual studio [here](https://my.visualstudio.com/Downloads?q=visual%20studio%202017&wt.mc_id=o~msft~vscom~older-downloads). Be sure to be log in to have the download appear.
+It's better to use Visual studio 2017, you can find older version of visual studio [here](https://my.visualstudio.com/Downloads?q=visual%20studio%202017&wt.mc_id=o~msft~vscom~older-downloads). Be sure to be log in to have the download appear.
 
 When you have visual studio you can open the file "**SatisfactoryModLoader.sln**" with visual studio.
 
