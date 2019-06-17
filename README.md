@@ -8,8 +8,19 @@ I will explain how to build it in the next chapter for people that already have 
 ### Building Satisfactory Mod Loader
 
 SML is still in heavy development and it's better if you learn how to build it from the source file.
+
 First you need to install soemthig to clone the repository on your computer the easiest one is github deskop available [here](https://desktop.github.com/)
+
 After downloading github desktop you need to go on SML github [here](https://github.com/satisfactorymodding/SatisfactoryModLoader)
-Here you can choose between Master branch (Stable version) or Development branch (Latest branch but can have bug)
+
+Here you can choose between Master branch (Stable version) or Development branch (Latest updated branch but not stable)
+
 In my example I will use the Development branch
+![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/blob/master/GitHub_SMLDownload.png "")
+
+Then you can go back on github desktop
+
+You need to go in File > Clone Repository...
+
+On this page paste the link you got from github
 ![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/blob/master/GitHubDesktop_clone.png "")
