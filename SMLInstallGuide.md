@@ -18,7 +18,11 @@ First you need to install something to clone the repository on your computer the
 
 After downloading github desktop you need to go on SML github [here](https://github.com/satisfactorymodding/SatisfactoryModLoader).
 
-Here you can choose between Master branch (Stable version) or Development branch (Latest updated branch but not stable).
+Here you can choose between Master branch or Development branch.
+
+The master branch is a copy of the latest built version and is generally considered stable. 
+
+The development branch is a more updated version of SML that is used for testing new features. Generally you should try to be on the development branch, so you will need to do less recoding in the future and you can help test features as they are developed.
 
 In my example I will use the Development branch.
 ![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/blob/master/GitHub_SMLDownload.png "GitHub_SMLDownload")
