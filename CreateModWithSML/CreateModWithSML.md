@@ -32,3 +32,29 @@ You can ignore all FG_ files they are needed for your mod but don't try to modif
 
 Don't change anything yet and build the exampleMod project to see if your mod loader is setup correctly.
 
+![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/CreateModWithSML/Build_ExampleMod.png "GitHub_SMLDownload")
+
+Like for the Satisfactory Mod Loader wait until you see "Build: 1 succeeded".
+
+Now it's time to test the mod go, you need to move the mod .dll into the mods fodler inside your game directory.
+
+The mod .dll is created inside the folder "**SatisfactoryModLoader\x64\Release**", search for "**ExampleMod.dll**" file.
+
+And copy/move this file in the mods directory created by SML when you launch the game with SML installed located at "**Epic Games\SatisfactoryEarlyAccess\FactoryGame\Binaries\Win64\mods**".
+
+To test if you mod work, create a new world or load an existing one then press the key 'G'. If everything work pressing the key will show a message in the console. You can test the "/kill" command that simply kill you.
+
+Now we know everything is working correctly we can start making change to make our own mod.
+
+## 4-Make a new command
+
+In this chapter I explain you how to make a new command that print "Hello world" in the in game chat. If you go at line 49 you can find the KillPlayer method executed when you do the command. The comment available in the exampleMod file explain you how to add command. First you need to create a new method, the one we want to call when the player write our command.
+
+So below the actual "killPlayer" method I've added my "helloWorld" method
+
+```cpp
+void helloWorld(Functions::CommandData data) 
+{
+
+}
+```
