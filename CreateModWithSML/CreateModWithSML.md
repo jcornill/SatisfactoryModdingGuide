@@ -58,3 +58,43 @@ void helloWorld(Functions::CommandData data)
 
 }
 ```
+SML implement a simple way to send a message in the chat using the player. First we need to create the string we will send in the chat. Satisfactory use FString when they need text. And FString is using wide char so you need to add the letter "L" before your text.
+```cpp
+void helloWorld(Functions::CommandData data) 
+{
+    SDK::FString* fString = &SDK::FString(L"Hello World");
+}
+```
+Now we need a reference to the player that will send the message. ExampleMod come already with a reference to the player so you can just call the function using your variable player (contains reference to the player) and the fString we created above.
+```cpp
+void helloWorld(Functions::CommandData data) 
+{
+    SDK::FString* fString = &SDK::FString(L"Hello World");
+    ::call<&AFGPlayerController::EnterChatMessage>(player, fString);
+}
+```
+but if you try this code you will see it's not working. It's because SML use a custom FString class, you need to add a cast to make it work.
+```cpp
+void helloWorld(Functions::CommandData data) 
+{
+    SDK::FString* fString = &SDK::FString(L"Hello World");
+    ::call<&AFGPlayerController::EnterChatMessage>(player, reinterpret_cast<FString*>(fString));
+}
+```
+Now our command is ready to work but what command to type to execute this code ?
+
+We need to explain to SML what chat command will trigger our method. We can do that around line 145.
+Here you see the code that explain the kill command.
+
+Below the kill command we just need to add our line to register our command.
+
+```cpp
+    Functions::registerCommand("hello", helloWorld);
+```
+Here "hello" is the command we will write in the chat and "helloWorld" is the reference to the method we created above.
+
+Now we can compile the mod like we have done in chapter 3 and we can test it.
+
+![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/CreateModWithSML/HelloWorld.png "HelloWorld")
+
+It work as expected.
