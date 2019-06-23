@@ -19,7 +19,7 @@ First, you need to install something to clone the repository on your computer th
 After downloading GitHub desktop you need to go on SML GitHub [here](https://github.com/satisfactorymodding/SatisfactoryModLoader).
 
 Here you can download the mod loader repository
-![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/GitHub_SMLDownload.png "GitHub_SMLDownload")
+![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/SMLInstallGuide/GitHub_SMLDownload.png "GitHub_SMLDownload")
 
 Then you can go back on GitHub desktop.
 
@@ -27,7 +27,7 @@ You need to go to **File > Clone Repository...** and select the URL tab at the t
 
 On this page paste the link you got from GitHub in repository URL, choose where you want to place the SML source then click Clone.
 
-![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/GitHubDesktop_clone.png "GitHubDesktop_clone")
+![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/SMLInstallGuide/GitHubDesktop_clone.png "GitHubDesktop_clone")
 
 Wait a bit for the code to be downloaded on your computer.
 
@@ -42,7 +42,7 @@ The master branch is a copy of the latest built version and is generally conside
 The development branch is a more updated version of SML that is used for testing new features. Generally, you should try to be on the development branch, so you will need to do less recoding in the future and you can help test features as they are developed.
 
 It's pretty easy to switch branch using GitHub desktop.
-![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/GitHub_DevBranch.png "GitHub_DevBranch")
+![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/SMLInstallGuide/GitHub_DevBranch.png "GitHub_DevBranch")
 
 Now you are on the Development branch.
 
@@ -63,13 +63,13 @@ Ignore "**Detours**" and "**ExampleMod**" for now and right click on "**Satisfac
 
 A context menu appears where you just need to click "Build".
 
-![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/visualStudio_Build.png "visualStudio_Build")
+![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/SMLInstallGuide/visualStudio_Build.png "visualStudio_Build")
 
 Now click on Output at the bottom and wait until you see "**Build: 2 succeeded**".
 
 It means everything is working fine.
 
-![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/VisualStudio_Output.png "VisualStudio_Output")
+![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/SMLInstallGuide/VisualStudio_Output.png "VisualStudio_Output")
 
 Now you just need to get the file named "**xinput1_3.dll**".
 
@@ -85,13 +85,13 @@ The path for the folder is "**SatisfactoryEarlyAccess\FactoryGame\Binaries\Win64
 
 Place the "**xinput1_3.dll**" inside this folder next to "**FactoryGame-Win64-Shipping.exe**" file.
 
-![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/Xinput.png "Xinput")
+![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/SMLInstallGuide/Xinput.png "Xinput")
 
 Now you can launch Satisfactory like with Epic like you always do.
 
 If a command window appears that means everything works correctly.
 
-![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/Console.png "console")
+![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/SMLInstallGuide/Console.png "console")
 
 Now you can install mod compatible with SML by directly dropping them inside the created mod folder "**SatisfactoryEarlyAccess\FactoryGame\Binaries\Win64\mods**" and relaunch the game.
 
