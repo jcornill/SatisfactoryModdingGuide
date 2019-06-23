@@ -23,7 +23,7 @@ Here you can download the mod loader repository
 
 Then you can go back on GitHub desktop.
 
-You need to go in **File > Clone Repository...** and select the URL tab at the top.
+You need to go to **File > Clone Repository...** and select the URL tab at the top.
 
 On this page paste the link you got from GitHub in repository URL, choose where you want to place the SML source then click Clone.
 
@@ -35,13 +35,13 @@ Perfect you have the SML source code on your computer.
 
 ### Switching to Development branch
 
-I highly suggest you to switch from Master branch to Development branch.
+I highly suggest you switch from Master branch to Development branch.
 
-The master branch is a copy of the latest built version and is generally considered stable but since the modding community progress fast, thing move fast and the Master branch is (when I'm writing this guide) completly outdated.
+The master branch is a copy of the latest built version and is generally considered stable but since the modding community progress fast, thing move fast and the Master branch is (when I'm writing this guide) completely outdated.
 
 The development branch is a more updated version of SML that is used for testing new features. Generally, you should try to be on the development branch, so you will need to do less recoding in the future and you can help test features as they are developed.
 
-It's pretty easy to switch branch using github desktop.
+It's pretty easy to switch branch using GitHub desktop.
 ![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/GitHub_DevBranch.png "GitHub_DevBranch")
 
 Now you are on the Development branch.
@@ -61,7 +61,7 @@ In the solution, you have 3 projects available
 
 Ignore "**Detours**" and "**ExampleMod**" for now and right click on "**SatisfactoryModLoader**".
 
-A context menu appears here you just need to click "Build".
+A context menu appears where you just need to click "Build".
 
 ![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/visualStudio_Build.png "visualStudio_Build")
 
