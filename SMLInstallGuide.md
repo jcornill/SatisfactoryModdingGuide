@@ -26,6 +26,7 @@ Then you can go back on GitHub desktop.
 You need to go in **File > Clone Repository...** and select the URL tab at the top.
 
 On this page paste the link you got from GitHub in repository URL, choose where you want to place the SML source then click Clone.
+
 ![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/GitHubDesktop_clone.png "GitHubDesktop_clone")
 
 Wait a bit for the code to be downloaded on your computer.
