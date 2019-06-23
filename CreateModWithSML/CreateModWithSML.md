@@ -1,6 +1,6 @@
 # How to make your first mod using Satisfactory Mod Loader (SML)
 
-## Introduction
+## 1-Introduction
 
 In this detaileld guide I will explain you step by step how to make a simple mod for satisfactory using SML. 
 
@@ -8,14 +8,14 @@ This guide explain how to make new command, sneding message in the chat and givi
 
 This guide nto explain how to add new machine/item/recipe to the game. This will be in another guide.
 
-## Requirements
+## 2-Requirements
 
 This guide require:
 + Knowledge in C++, I will not explain how work the programing language.
-+ The satisfactory mod loader installed and working (check my [other guide] (https://ficsit.app/guide/9ZYFESKroqiQgw) explaing how to install and compile SML)
++ The satisfactory mod loader installed and working (check my [other guide](https://ficsit.app/guide/9ZYFESKroqiQgw) explaing how to install and compile SML)
 + Visual Studio 2017
 
-## Building default Example mod
+## 3-Building default Example mod
 
 Before starting to make our own mod let's try to compile and make the example mod work without any modification.
 
