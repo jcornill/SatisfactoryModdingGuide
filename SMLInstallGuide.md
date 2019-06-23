@@ -18,13 +18,7 @@ First, you need to install something to clone the repository on your computer th
 
 After downloading GitHub desktop you need to go on SML GitHub [here](https://github.com/satisfactorymodding/SatisfactoryModLoader).
 
-Here you can choose between Master branch or Development branch.
-
-The master branch is a copy of the latest built version and is generally considered stable. 
-
-The development branch is a more updated version of SML that is used for testing new features. Generally, you should try to be on the development branch, so you will need to do less recoding in the future and you can help test features as they are developed.
-
-In my example, I will use the Development branch.
+Here you can download the mod loader repository
 ![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/GitHub_SMLDownload.png "GitHub_SMLDownload")
 
 Then you can go back on GitHub desktop.
@@ -37,6 +31,19 @@ On this page paste the link you got from GitHub in repository URL, choose where 
 Wait a bit for the code to be downloaded on your computer.
 
 Perfect you have the SML source code on your computer.
+
+### Switching to Development branch
+
+I highly suggest you to switch from Master branch to Development branch.
+
+The master branch is a copy of the latest built version and is generally considered stable but since the modding community progress fast, thing move fast and the Master branch is (when I'm writing this guide) completly outdated.
+
+The development branch is a more updated version of SML that is used for testing new features. Generally, you should try to be on the development branch, so you will need to do less recoding in the future and you can help test features as they are developed.
+
+It's pretty easy to switch branch using github desktop.
+![alt text](https://github.com/jcornill/SatisfactoryModdingGuide/raw/master/GitHub_DevBranch.png "GitHub_DevBranch")
+
+Now you are on the Development branch.
 
 ### Building SML with visual studio
 
