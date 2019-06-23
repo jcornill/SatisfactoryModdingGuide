@@ -89,7 +89,7 @@ Here you see the code that explain the kill command.
 Below the kill command we just need to add our line to register our command.
 
 ```cpp
-    Functions::registerCommand("hello", helloWorld);
+Functions::registerCommand("hello", helloWorld);
 ```
 Here "hello" is the command we will write in the chat and "helloWorld" is the reference to the method we created above.
 
